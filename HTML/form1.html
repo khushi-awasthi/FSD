@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form input element</h1>
+    <h3><span>for attribute</span> of form and<span> id attribute</span> of input should be </h3>
+    <form action="">
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname"name="fname"><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname">
+        <label for="message" style="display:block; margin-bottom: 10px;">message</label>
+        <textarea name="message" id="message" rows="4" cols="100"></textarea>
+        <input type="checkbox" id="coding" name="interest"value="coding">
+        <label for="coding">coding</label>
+        <input type="checkbox" id="music"value="interest"value="music">
+        <label for="music">Music</label>
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="us">United states</option>
+            <option value="canada" selected>Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select><br>
+        <label for="email">Email</label>
+        <input type="email" id="Email" name="email"><br>
+        <label for="pass">Password</label>
+        <input style="width:100px" type="password" id="pass" value="password"><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
